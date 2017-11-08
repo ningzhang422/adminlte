@@ -17,10 +17,10 @@ Gem::Specification.new do |spec|
   spec.files         = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "README.md"]
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "railties", "~> 4.1"
-  spec.add_runtime_dependency "bootstrap-sass", "~> 3.3.4"
-  spec.add_runtime_dependency "font-awesome-sass", "~> 4.3.0"
+  #spec.add_runtime_dependency "railties", "~> 4.1"
+  #spec.add_runtime_dependency "bootstrap-sass", "~> 3.3.4"
+  #spec.add_runtime_dependency "font-awesome-sass", "~> 4.3.0"
 
-  spec.add_development_dependency "bundler", "~> 1.7"
-  spec.add_development_dependency "rake", "~> 10.0"
+  #spec.add_development_dependency "bundler", "~> 1.7"
+  #spec.add_development_dependency "rake", "~> 10.0"
 end
